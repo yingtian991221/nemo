@@ -1,6 +1,7 @@
 import os
 import argparse
-from nemo.tool.video import get_video_url
+# from nemo.tool.video import get_video_url
+from video import get_video_url
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
