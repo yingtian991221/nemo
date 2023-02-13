@@ -1,6 +1,7 @@
 import os
 import argparse
-from nemo.tool.video import LibvpxEncoder, get_video_profile
+# from nemo.tool.video import LibvpxEncoder, get_video_profile
+from video import LibvpxEncoder, get_video_profile
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
